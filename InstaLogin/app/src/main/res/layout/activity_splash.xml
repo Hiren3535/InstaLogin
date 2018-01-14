@@ -4,13 +4,14 @@
     android:id="@+id/activity_splash"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.hirenpatel.instalogin.SplashActivity">
+    android:background="@color/colorPrimary"
+    tools:context="com.hirenpatel.instalogin.Splash_Activity">
 
     <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/ic_instagram"
-        cent/>
-
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_instagram"/>
 
 </RelativeLayout>
